@@ -1,3 +1,6 @@
+// https://www.hackerrank.com/challenges/insertionsort2/problem?
+// Day 54 - Insertion Sort - Part 2
+
 function insertionSort2(n, arr) {
   // Write your code here
 
@@ -14,7 +17,9 @@ function insertionSort2(n, arr) {
   }
 }
 
+// My thinking Approach
 // Loop through the entire array
+// Inner loop will run from 0 to i
 // Compare the current element with the previous element
 // If the current element is smaller than the previous element, shift in front of it
 // Print the array after each iteration
