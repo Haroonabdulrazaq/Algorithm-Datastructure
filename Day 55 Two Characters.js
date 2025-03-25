@@ -33,3 +33,14 @@ const isAlternating = (str) => {
 
 // Sample output
 // 5
+
+/*
+Thinking Approach
+Using Brute force approach
+Create unique character and combine each using the loop
+Filter the character and store in an array filterStr, this would help us to get only the character combination that exist in s.
+Then I check if the letters are alternating in a helper function called isAlternating
+if it is, then I get the maximum starting max from 0.
+return max, else max is 0
+
+*/
