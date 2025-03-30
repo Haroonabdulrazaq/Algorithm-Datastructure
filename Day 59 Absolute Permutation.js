@@ -1,4 +1,5 @@
-function absolutePermutation(n, k) {
+//www.hackerrank.com/challenges/absolute-permutation/problem?isFullScreen=true
+https: function absolutePermutation(n, k) {
   // Write your code here
   if (k === 0) {
     return Array.from({ length: n }, (_, i) => i + 1);
