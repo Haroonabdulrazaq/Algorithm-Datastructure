@@ -1,6 +1,7 @@
-function countingSort(arr) {
+//www.hackerrank.com/challenges/countingsort1/problem?isFullScreen=true
+https: function countingSort(arr) {
   // Write your code here
-  let freqArr = Array.from({ length: 100 }, (element) => (element = 0));
+  let freqArr = Array.from({ length: 100 }, (element) => (element = 0)); // Instruction from the challenge: Always return the first 100
 
   for (let num of arr) {
     freqArr[num] += 1;
