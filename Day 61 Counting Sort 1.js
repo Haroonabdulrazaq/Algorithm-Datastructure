@@ -24,5 +24,5 @@ Sample Output
 
 // My Approach
 // Fill the array with zeros
-// Increment at each arr[i] of freqArr
+// Increment at each arr[i] of freqArr to get the number of times the element appeared in the input array
 // return freqArr
