@@ -9,6 +9,24 @@ function bigSorting(unsorted) {
     return a.localeCompare(b);
   });
 }
+/*
+Sample Input6
+31415926535897932384626433832795
+1
+3
+10
+3
+5
+
+Sample Output
+1
+3
+3
+5
+10
+31415926535897932384626433832795
+
+*/
 
 // Problem Solving Approch
 // Because we are comparing large SVGAnimatedNumberList, normal sort() method wont Worker.
