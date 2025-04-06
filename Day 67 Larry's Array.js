@@ -28,7 +28,7 @@ YES
 NO
 */
 
-// My thinking Approach
+// My thinking Approach using rotation
 /*
 [1,6,5,2,4,3] considering [6,5,2]
 [1,5,2,6,4,3] considering [5,2,6]
