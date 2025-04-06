@@ -48,4 +48,6 @@ The secrete to this problem is:
 Check the numbers that is less than current number of the array A[i] to the right
 After summing all the numbers that are less than the current number check if its even, if it is then,
 It can be sirted and return "YES", else return "NO"
+
+For more detail watch explanation here :https://www.youtube.com/watch?v=-9PKZ8XkVBg
 */
