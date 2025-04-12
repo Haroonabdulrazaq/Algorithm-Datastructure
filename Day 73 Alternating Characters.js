@@ -9,3 +9,23 @@ function alternatingCharacters(s) {
   }
   return count;
 }
+/*
+Sample Input
+AAAA
+BBBBB
+ABABABAB
+BABABA
+AAABBB
+
+Sample Output
+3
+4
+0
+0
+4
+*/
+/*
+Problem solving approach
+Loop throgh the string
+Search if the current letter is equal to the next, if true, then increment
+*/
