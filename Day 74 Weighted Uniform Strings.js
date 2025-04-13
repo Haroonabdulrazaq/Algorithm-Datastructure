@@ -21,3 +21,29 @@ function weightedUniformStrings(s, queries) {
   });
   return resultArr;
 }
+
+/*
+Sample Input
+aaabbbbcccddd
+
+9
+7
+8
+12
+5
+
+Sample Output
+Yes
+No
+Yes
+Yes
+No
+*/
+
+/*
+Get all the alphabet so I can get its value using (indexOf + 1)
+Track alphabet that repeat, and multiply its value each time with count, and push into valueArr
+If the alphabet doesnt repeat, push the value into the valueArr 
+Compare the valueArr if its included in the queries,
+if it is then push Yes, else push No into the resultArr
+*/
