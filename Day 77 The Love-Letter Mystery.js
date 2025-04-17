@@ -1,5 +1,5 @@
-//www.hackerrank.com/challenges/the-love-letter-mystery/problem?isFullScreen=true
-https: function theLoveLetterMystery(s) {
+// www.hackerrank.com/challenges/the-love-letter-mystery/problem?isFullScreen=true
+function theLoveLetterMystery(s) {
   // Write your code here
   let alphabets = 'abcdefghijklmnopqrstuvwxyz';
   let alphabetArr = alphabets.split('');
