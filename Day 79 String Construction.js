@@ -12,3 +12,18 @@ function stringConstruction(s) {
   }
   return count;
 }
+/*
+Sample Input
+abcd
+abab
+
+Sample Output
+4
+2
+*/
+
+/*
+Prblem solving approach
+Count unique characters of the string
+
+*/
