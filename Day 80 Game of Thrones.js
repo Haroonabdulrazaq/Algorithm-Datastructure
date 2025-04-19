@@ -17,3 +17,16 @@ https: function gameOfThrones(s) {
   if (odd > 1) return 'NO';
   return 'YES';
 }
+
+//An Palindrome will only contain pairs of character or including a character
+// I tracked how many odd occurence, if its(odd) greater than one then it cannot be re-arranged it's  not
+
+/*
+Sample input
+aaabbbb
+YES
+
+Sample Input
+cdefghmnopqrstuvw
+Sample Output
+*/
