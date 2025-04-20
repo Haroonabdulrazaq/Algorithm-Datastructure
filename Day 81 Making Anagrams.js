@@ -29,3 +29,15 @@ function makingAnagrams(s1, s2) {
 
   return total;
 }
+
+/*
+
+Sample Input
+
+cde
+abc
+
+Sample Output
+
+4
+*/
