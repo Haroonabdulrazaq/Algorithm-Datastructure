@@ -1,5 +1,5 @@
 //www.hackerrank.com/challenges/missing-numbers/problem?isFullScreen=true
-https: function missingNumbers(arr, brr) {
+function missingNumbers(arr, brr) {
   // Write your code here
   let result = [];
   let arrObj = {};
