@@ -41,6 +41,4 @@ My problem-solving approach
 Its a 2D matrix and required to rotate the matrix in r time.
 We have to rotate the outside layer and inner layer of the matrix
 To rotate for each layer start from layer 0, and store each element in an Element arr in clockwise direction
-
-
 */
