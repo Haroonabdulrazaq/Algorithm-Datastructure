@@ -1,4 +1,5 @@
-function palindromeIndex(s) {
+//www.hackerrank.com/challenges/palindrome-index/problem?isFullScreen=true
+https: function palindromeIndex(s) {
   // Write your code here
   if (checkPalindrome(s)) return -1;
 
@@ -25,6 +26,19 @@ function checkPalindrome(str) {
   }
   return false;
 }
+
+/*
+Sample Input
+aaab    s = 'aaab' (first query)
+baa     s = 'baa'  (second query)
+aaa     s = 'aaa'  (third query)
+
+
+Sample Output
+3
+0
+-1
+*/
 
 /*
 Problem Solving Approach
