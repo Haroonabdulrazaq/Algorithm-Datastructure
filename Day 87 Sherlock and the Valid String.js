@@ -42,6 +42,7 @@ NO
 */
 
 /*
+My Problem-solving approach
 Count the frequency of Characters
 Count the frequency Of Numbers
 Then consider:
