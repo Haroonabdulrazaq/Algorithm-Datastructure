@@ -31,3 +31,23 @@ function isValid(s) {
 
   return 'NO';
 }
+
+/*
+Sample Input
+aabbccddeefghi
+
+Sample Output
+NO
+
+*/
+
+/*
+Count the frequency of Characters
+Count the frequency Of Numbers
+Then consider:
+If only 1 frequency → "YES"
+If 2 frequencies:
+    - One freq must be 1 and occur once → OK
+    - Or difference between two freqs must be 1 and higher freq occurs once → OK
+Else → "NO"
+*/
