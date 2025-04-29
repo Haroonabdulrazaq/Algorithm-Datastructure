@@ -14,7 +14,17 @@ function balancedSums(arr) {
 
   return 'NO';
 }
+/*Sample Input
+1 2 3
+1 2 3 3
+Sample Output
+NO
+YES
 
-/* We needed to find if the array is balanced or not
+*/
+/* 
+Problem-solving approach
+
+We needed to find if the array is balanced or not
 The formula is to compare rightSum to Leftsum, each time after subtracting leftSum from total, and current iteration element.
 */
