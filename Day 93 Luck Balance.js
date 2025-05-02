@@ -32,6 +32,7 @@ n = 6, k = 3
 */
 
 /*
+Problem solving approach
 Lena wants to maximise her luck. Her luck reduces when she wins the contest, and increases when she looses
 First I ned tp sort by highest Luck value, in order to discard less value but important, when the k value is 0
 Then add up all the unimportant contest
