@@ -10,8 +10,21 @@ function maximumPerimeterTriangle(sticks) {
   }
   return [-1];
 }
+/*
+Sample Input
 
-/*A non-degenerate triange: Its a triangle where the first 2 sides when summed up is greater than the last side
+1 1 1 2 3 5
+
+Sample Output
+
+111
+
+*/
+
+/*
+Problem-solviong approach
+
+A non-degenerate triange: Its a triangle where the first 2 sides when summed up is greater than the last side
 The challange wants us to get the maximum possible triangle sides.
 Hence: We sort in ascending order(another way would be to loop from the back)
 In order to keep the order of elements in the array, therefore we reverse the temp array
