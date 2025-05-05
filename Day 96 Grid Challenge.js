@@ -14,3 +14,12 @@ function gridChallenge(grid) {
   }
   return 'YES';
 }
+/*
+- Split each element in the array so we can sort, then convert back to string
+- Then we compare each element in each row above with the one below it, if its greater, then we return NO
+Example:
+a b c
+d e f
+- if a greater than d, we return NO.
+else after all interation we return YES
+*/
