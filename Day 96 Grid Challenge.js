@@ -1,3 +1,4 @@
+//www.hackerrank.com/challenges/grid-challenge/problem?isFullScreen=true
 function gridChallenge(grid) {
   // Write your code here
   for (let i = 0; i < grid.length; i++) {
