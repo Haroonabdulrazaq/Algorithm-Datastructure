@@ -15,6 +15,18 @@ function gridChallenge(grid) {
   return 'YES';
 }
 /*
+Sample Input
+ebacd   grid = ['ebacd', 'fghij', 'olmkn', 'trpqs', 'xywuv']
+fghij
+olmkn
+trpqs
+xywuv
+
+Sample Output 
+YES
+*/
+
+/* Problem solving approach
 - Split each element in the array so we can sort, then convert back to string
 - Then we compare each element in each row above with the one below it, if its greater, then we return NO
 Example:
