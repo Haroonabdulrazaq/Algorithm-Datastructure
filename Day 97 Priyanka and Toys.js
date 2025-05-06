@@ -12,3 +12,16 @@ function toys(w) {
   }
   return container;
 }
+/*
+Sample Input: 1 2 3 21 7 12 14 21
+Sample output: 4
+*/
+
+/*
+Problem solving approach
+w length is greater or equal to than 1, so container is initialised as 1
+Sort in ascending order, so that smaller weights will be considered into the container
+check if the weight difference is greater than 4 then a new container is needed
+return container
+
+*/
