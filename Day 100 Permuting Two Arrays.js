@@ -25,3 +25,11 @@ Sample Output:
 YES
 NO
 */
+
+/*
+Problem Solving approach
+- Sort the A in ascending Order and B in descending Order, 
+- Loop through one of the array and check if the additionof A[i],B[i] is less than K
+- If true return NO
+- retrn YES at the end of the iteration
+*/
